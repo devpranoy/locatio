@@ -34,6 +34,11 @@
 			  	<div class="panel-body">
 			    	<form accept-charset="UTF-8" role="form" action="" method="POST">
                     <fieldset>
+
+                      <div class="form-group">
+                        <input class="form-control" placeholder="Name" name="name" type="text" value="{{request.form.name}}">
+                    </div>
+
 			    	  	<div class="form-group">
 			    		    <input class="form-control" placeholder="E-mail" name="email" type="text" value="{{request.form.email}}">
 			    		</div>
@@ -42,7 +47,14 @@
 			    		</div>
 
 
-			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+            <div class="form-group">
+              <input class="form-control" placeholder="Country" name="country" type="text" value="{{request.form.country}}">
+          </div>
+          <div class="form-group">
+            <input class="form-control" placeholder="City" name="city" type="text" value="{{request.form.city}}">
+        </div>
+
+			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Register!">
 			    	</fieldset>
 			      	</form>
 			    </div>

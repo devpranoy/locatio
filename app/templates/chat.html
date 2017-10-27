@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="refresh" content="20">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
     <title>Parallax Login Form - Bootsnipp.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,20 +30,24 @@
     	<div class="col-md-4 col-md-offset-4">
     		<div class="panel panel-default">
 			  	<div class="panel-heading">
-			    	<h3 class="panel-title">Please sign in</h3>
+			    	<h3 class="panel-title">Say something</h3>
 			 	</div>
 			  	<div class="panel-body">
+            {% for chat in chats %}
+
+              <span>{{chat[0]}}</span>
+              <br>
+            </a>
+              {% endfor %}
 			    	<form accept-charset="UTF-8" role="form" action="" method="POST">
                     <fieldset>
 			    	  	<div class="form-group">
-			    		    <input class="form-control" placeholder="E-mail" name="email" type="text" value="{{request.form.email}}">
-			    		</div>
-			    		<div class="form-group">
-			    			<input class="form-control" placeholder="Password" name="password" type="password" value="{{request.form.password}}">
+			    		    <input class="form-control" placeholder="enter message" name="message" type="text" value="{{request.form.message}}">
 			    		</div>
 
 
-			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+
+			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Send!">
 			    	</fieldset>
 			      	</form>
 			    </div>
