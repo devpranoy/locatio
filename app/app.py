@@ -136,4 +136,4 @@ def logout():
 	return redirect(url_for('index'))
 
 app.secret_key='secret123'
-app.run(host = '0.0.0.0',port=80,debug=True,threaded=True)
+app.run(host = '0.0.0.0',port=80,threaded=True)
