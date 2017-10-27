@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pricing" transform="translate(-400.000000, -709.000000)" fill="#30323D">
+            <g id="Hero-Section">
+                <g id="Price-1" transform="translate(380.000000, 483.000000)">
+                    <g id="Text" transform="translate(20.000000, 212.000000)">
+                        <g id="Icons" transform="translate(0.000000, 14.000000)">
+                            <path d="M8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 Z M8,14.4 C11.5346224,14.4 14.4,11.5346224 14.4,8 C14.4,4.4653776 11.5346224,1.6 8,1.6 C4.4653776,1.6 1.6,4.4653776 1.6,8 C1.6,11.5346224 4.4653776,14.4 8,14.4 Z M6.23431458,10.9656854 L3.83431458,8.56568542 C3.52189514,8.25326599 3.52189514,7.74673401 3.83431458,7.43431458 C4.14673401,7.12189514 4.65326599,7.12189514 4.96568542,7.43431458 L6.8,9.27989563 L10.6343146,5.43431458 C10.946734,5.12189514 11.453266,5.12189514 11.7656854,5.43431458 C12.0781049,5.74673401 12.0781049,6.25326599 11.7656854,6.56568542 L7.36568542,10.9656854 C7.05326599,11.2781049 6.54673401,11.2781049 6.23431458,10.9656854 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

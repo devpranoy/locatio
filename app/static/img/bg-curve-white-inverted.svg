@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="501px" viewBox="0 0 1920 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>bg-curve-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-curve-white" transform="translate(960.000000, 250.500000) scale(1, -1) translate(-960.000000, -250.500000) " fill="#FFFFFF">
+            <path d="M1920,500.433584 L1920,0.5390625 L0,0.5390625 L0,460.433594 L0,420.328125 L0.014736111,420.328125 L0.014736111,420.328125 C0.005796581,470.865142 0.000113364,500.328125 0.000113364,500.328125 C0.000113364,500.328125 479.999991,421.969374 959.999991,421.969374 C1439.88583,421.969374 1919.7718,500.290858 1920,500.328106 L1920,500.433585 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

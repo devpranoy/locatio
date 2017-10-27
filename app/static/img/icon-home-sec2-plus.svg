@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web-Final" transform="translate(-1180.000000, -2454.000000)">
+            <g id="Section-2" transform="translate(0.000000, 1946.000000)">
+                <g id="Content" transform="translate(1180.000000, 508.000000)">
+                    <g id="Icon">
+                        <circle id="Oval-2" fill="#46C86D" cx="32" cy="32" r="32"></circle>
+                        <path d="M33.3333333,30.6666667 L33.3333333,21.3331382 C33.3333333,20.5932617 32.7363797,20 32,20 C31.2584864,20 30.6666667,20.5968663 30.6666667,21.3331382 L30.6666667,30.6666667 L21.3331382,30.6666667 C20.5932617,30.6666667 20,31.2636203 20,32 C20,32.7415136 20.5968663,33.3333333 21.3331382,33.3333333 L30.6666667,33.3333333 L30.6666667,42.6668618 C30.6666667,43.4067383 31.2636203,44 32,44 C32.7415136,44 33.3333333,43.4031337 33.3333333,42.6668618 L33.3333333,33.3333333 L42.6668618,33.3333333 C43.4067383,33.3333333 44,32.7363797 44,32 C44,31.2584864 43.4031337,30.6666667 42.6668618,30.6666667 L33.3333333,30.6666667 L33.3333333,30.6666667 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

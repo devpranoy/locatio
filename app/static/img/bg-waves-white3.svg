@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1921px" height="501px" viewBox="0 0 1921 501" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>bg-waves-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-waves-white" transform="translate(960.500000, 250.500000) scale(-1, 1) translate(-960.500000, -250.500000) " fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M0.375,0.515625111 L0.375,433.334048 C0.375,433.334048 520.375123,584.492596 960.375061,433.334048 C1400.375,282.175501 1920.375,433.334048 1920.375,433.334048 L1920.375,0.515625111 L0.375,0.515625111 Z" id="Combined-Shape" transform="translate(960.375000, 250.515625) scale(-1, 1) rotate(-180.000000) translate(-960.375000, -250.515625) "></path>
+        </g>
+    </g>
+</svg>
