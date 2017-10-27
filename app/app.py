@@ -71,7 +71,7 @@ def is_logged_in(f):	# Function for implementing security and redirection
 @is_logged_in	
 def dashboard():
 	city=session['city']	#Recieving the userid for db manipulation from the initilised session
-	sql="SELECT * FROM USERS WHERE CITY = '%s'"%(city)
+	sql="SELECT * FROM USERS WHERE CITY = '%s' AND USERID <> %d"%(city,session['userid'])
 	people=dbquery.fetchall(sql)
 	return render_template('dashboard.html',people=people)
 
@@ -105,6 +105,8 @@ def signup():
 
 @app.route('/chat/<int:id>',methods=['GET','POST'])
 def projects(id):
+    if id == session['userid']:
+    		return redirect(url_for('dashboard'))
 	if request.method=='POST':
 		message=request.form['message']
 		name =str(session['name'])
