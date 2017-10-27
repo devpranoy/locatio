@@ -67,8 +67,17 @@ def dashboard():
 	city=session['city']	#Recieving the userid for db manipulation from the initilised session
 	sql="SELECT * FROM USERS WHERE CITY = '%s' AND USERID <> %d"%(city,session['userid'])
 	people=dbquery.fetchall(sql)
-	return render_template('dashboard.html',people=people)
+	return render_template('dashboard.html',people=people,city=city)
 
+@app.route('/change_location',methods=['GET','POST'])
+def change():
+	if request.method == 'POST':
+		location = request.form['location']
+		sql="UPDATE USERS SET CITY= '%s' WHERE USERID= %d "%(location,session['userid'])
+		dbquery.inserttodb(sql)
+		session['city']=location
+		return redirect(url_for('dashboard'))
+	return render_template('change.html')
 
 
 
