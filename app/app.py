@@ -105,8 +105,8 @@ def signup():
 
 @app.route('/chat/<int:id>',methods=['GET','POST'])
 def projects(id):
-    if id == session['userid']:
-    		return redirect(url_for('dashboard'))
+	if id == session['userid']:
+		return redirect(url_for('dashboard'))
 	if request.method=='POST':
 		message=request.form['message']
 		name =str(session['name'])
