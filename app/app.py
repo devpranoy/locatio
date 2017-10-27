@@ -8,9 +8,7 @@ def index():
      return render_template('index.html')
 
 @app.route('/login')
-def chat():
- 
+def login():
     return render_template('login.html')
- 
  
 app.run(host = 'localhost',port=80,debug=True)
