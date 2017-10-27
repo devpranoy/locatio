@@ -14,13 +14,7 @@ def login():
 		email = request.form['email']					#GET FORM FIELDS
 		password_candidate= request.form['password']	#GET FORM FIELDS
 		flag=0
-		if email=='admin@mindhacks.com':
-			if password_candidate=='adminadmin':
-				session['logged_in'] = True
-				session['name'] = 'Administrator'
-				session['userid']='0'
-				return render_template('admin_dash.html')
-
+		
 
 		sql="SELECT PASSWORD FROM USERS WHERE EMAIL= '%s' "%(email)
 		rows = dbquery.fetchone(sql)
